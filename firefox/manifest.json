@@ -1,10 +1,9 @@
 {
-
     "manifest_version": 2,
-    "name": "Remove-Disabled-Tag",
-    "version": "0.1.3",
+    "name": "Remove-Validation-Tag",
+    "version": "0.0.1",
   
-    "description": "Removes the 'disabled' HTML attribute of a selected element.",
+    "description": "Remove validation tags like 'disabled' and 'required'",
   
     "icons": {
       "48": "eraser.png"
@@ -13,15 +12,14 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["remove-disable.js"]
+        "js": ["remove-validation-tag.js"]
       }
     ],
 
     "background":{
-        "scripts":["remove-disable-background.js"]
+        "scripts":["remove-validation-tag-background.js"]
     },
 
     "permissions":["menus", "activeTab"]
-  
   }
   
