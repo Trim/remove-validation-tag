@@ -1,7 +1,7 @@
-# Remove Disabled Tag
- Removes the 'disabled' HTML attribute of a selected element.
+# Remove Validation Tag
+ Removes the validation tags like 'disabled' or 'required'.
  
- Available for 🦊[Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/remove-disabled-attribute/)
+Original addon: [Remove Disabled Tag](https://addons.mozilla.org/en-US/firefox/addon/remove-disabled-attribute/)
  
 
  Icon attribution:
